@@ -1,0 +1,62 @@
+\documentclass{paper}
+
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{listings}
+
+\geometry{left=2.5cm, right=2.5cm, top=3.6cm, bottom=3.6cm}
+\setmainfont{Monaco}
+
+\title{A dog's Purpose}
+\author{Sheng Yuan}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\vfill
+	{\bfseries\Huge
+		TestLab Reference\\
+		\vskip2cm
+		\Large
+		Sheng Yuan\\
+	}
+	\vfill
+	\includegraphics[width=6cm]{poster.jpg} % also works with logo.pdf
+	\vfill
+	\vfill
+\end{titlepage}
+
+\tableofcontents
+
+\section{Brief}
+	TestLab is designed from google Firebase-Testlab, which makes your app is easier to be tested on different platforms. 
+	
+\section{Developer}
+The developer gets access to the basic function in testlab : submit your testing task.
+\subsection{Sign in}
+\subsection{Reset Password}
+\subsection{TestLab}
+
+\subsubsection{App}
+\begin{lstlisting}
+Put your code here.
+\end{lstlisting}
+\subsubsection{Sita}
+\lstinputlisting[language=Python]{main.py}
+\subsubsection{System}
+
+\section{Root}
+The root gets full access to what the developer got as well as the following privileges.
+\subsection{User Manage}
+\subsection{Device Manage}
+\subsection{Project Manage}
+
+\section{Admin}
+The admin gets full access to what the root got, but he or she also need to be responsible for deploying the system.
+\subsection{Deploy and Run}
+
+\subsection{Config}
+
+\end{document}
